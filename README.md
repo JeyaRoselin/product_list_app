@@ -102,15 +102,15 @@ Using **DummyJSON API**:
 
 * When a user taps the **favorite (❤️)** button:
 
-  * Product ID (or serialized product data) is stored in **SharedPreferences**
+  *  serialized product data is stored in **SharedPreferences**
 
 * Favorites are stored locally as:
 
-  * A list of **product IDs** OR **JSON strings**
+  * A list of **JSON strings**
 
-* On app launch or screen load:
+* On  screen load:
 
-  * **FavoritesCubit** retrieves stored data
+  * **SharedPreferences** retrieves stored data
   * UI updates automatically
 
 ---
